@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for file in *.transit; do
+    mv "$file" "`basename $file .transit`"
+done
+
+
+find  /data/inc/wif/$1 -name "*.csv" -print | while read FICHIER
+do
+        echo "${FICHIER}"
+done
