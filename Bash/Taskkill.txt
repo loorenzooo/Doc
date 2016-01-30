@@ -1,2 +1,0 @@
-' Exemple
-taskkill /IM eclipse.exe
