@@ -1,1 +1,1 @@
-# Git Cookbook
+# Aide-mémoire Git
