@@ -1,0 +1,31 @@
+## Branches
+
+### Lister les branches locales
+```
+git branch
+```
+### Créer une branche locale et s’y positionner
+```
+git checkout -b [name_of_your_new_branch]
+```
+### Pousser la nouvelle branche sur github
+```
+git push origin  [name_of_your_new_branch]
+```
+### Supprimer une branche locale
+```
+git branch -d [nom de la branche]
+```
+### Lister toutes les branches
+```
+git branch -a
+```
+La branche par défaut est la branche master
+### Comparer la copie de travail avec la branche master
+```
+git diff master
+```
+### Récupération de la branche master locale et positionnement dessus
+```
+git checkout master
+```
