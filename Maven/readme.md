@@ -4,5 +4,5 @@ mvn archetype:generate -DgroupId=fr.ibp.flume -DartifactId=regex-interceptor -Da
 ```
 ## Téléchargement des sources
 ```bash
-mnv dependency:sources
+mvn dependency:sources
 ```
