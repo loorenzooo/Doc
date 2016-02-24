@@ -5,6 +5,7 @@ Ctrl-Shift-P : General command line
 Ctrl-T : Open file from left pane
 ## Edition
 - Ctrl-F : Find
+
 - F3 : Find next
 ## Plugins
 - Ctrl-Shift-H : Git-plus
