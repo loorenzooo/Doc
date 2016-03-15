@@ -10,3 +10,7 @@ Le fichier est alors dans la staging area
 ```
 git checkout monFichier
 ```
+### Revenir à la dernière version commitée
+```
+git reset --hard
+```
