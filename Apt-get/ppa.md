@@ -8,6 +8,7 @@ ls -l /etc/apt/sources.list.d/
 sudo add-apt-repository ppa:<nom_du_dépôt>
 ```
 - puis recharger la liste des packages
+
 ## Supprimer un dépôt ppa
 ```bash
 sudo add-apt-repository -r ppa:<nom_du_dépôt>
