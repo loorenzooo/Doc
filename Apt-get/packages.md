@@ -11,7 +11,9 @@ apt-cache search [monPackage]
 apt-file list monPackage
 ```
 ### Lister les packages installés
+```bash
 apt --installed list
+```
 ### Savoir si un paquet précis est installé
 ```bash
 dkpg -s mongodb-org
