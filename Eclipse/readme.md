@@ -1,5 +1,17 @@
-# Command line arguments
+## Command line arguments
+```bash
 -debug
 -clean
 -data "<workspace>"
 -consoleLog : affiche les logs dans la console
+```
+
+## Specify jvm ion eclipse.ini file
+```ini
+-vm
+C:\Java\jdk1.7.0_80_x86\bin\javaw.exe
+-vmargs
+-Dosgi.requiredJavaVersion=1.7
+-Xmx512m
+-XX:MaxPermSize=512m
+```
