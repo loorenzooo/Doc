@@ -2,6 +2,7 @@
 ```bash
 history
 ```
+
 ## Rechercher une commande
 - Ctrl+R
 - [recherche]
