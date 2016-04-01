@@ -1,1 +1,2 @@
-Définies via la syntaxe MA_VARIABLE=ma_valeur
+- Définition : MA_VARIABLE=ma_valeur
+- Utilisation : $MA_VARIABLE ou ${MA_VARIABLE}
