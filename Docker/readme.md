@@ -13,4 +13,7 @@ sudo docker run -d --name elasticsearch -v "$PWD/esdata":/usr/share/elasticsearc
 ```bash
 sudo docker ps
 ```
-
+### Display logs of particular image
+```bash
+sudo docker logs elasticsearch
+```
