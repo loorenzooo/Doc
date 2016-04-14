@@ -37,7 +37,18 @@ apt-get install --only-upgrade monPaquet
 apt-get remove <mon_paquet>
 apt-get purge <mon_paquet> -- voir ce que purge fait vraiment
 ```
-
+### Supprimer le cache des paquets périmés
+```bash
+sudo apt-get autoclean
+```
+### Supprimer tout le cache
+```bash
+sudo apt-get clean
+```
+### Supprimer les dépendances inutiles
+```bash
+sudo apt-get autoremove
+```
 ### Afficher la version d’un package
 ```bash
 apt-cache policy mongodb-org
