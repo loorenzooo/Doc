@@ -1,5 +1,5 @@
 ```bash
-if [[TEST]]; then
+if [[ TEST ]]; then
   [COMMAND1]
 else
   [COMMAND2]
