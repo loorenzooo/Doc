@@ -6,6 +6,6 @@ else
 fi
 ```
 
-### Egualité numérique :
+### Tests numériques
 - $variable -eq 10 : égal
 - $variable -ne 10 : différent
