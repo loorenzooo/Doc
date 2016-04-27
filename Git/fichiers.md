@@ -1,4 +1,8 @@
 ## Gestion des fichiers
+### Etats des fichiers
+- modified
+- staged
+- commited
 
 ### Ajout de nouveaux fichiers au prochain commit
 ```
@@ -14,7 +18,7 @@ git checkout monFichier
 ```
 git reset --hard
 ```
-### Voir les modifications non commitées d'un fichier (unstaged changes)
+### Voir les modifications non commitées d'un fichier
 ```
 git diff mon_fichier
 ```
