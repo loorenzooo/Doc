@@ -14,3 +14,7 @@ git checkout monFichier
 ```
 git reset --hard
 ```
+### Voir les modifications non commitées d'un fichier (unstaged changes)
+```
+git diff mon_fichier
+```
