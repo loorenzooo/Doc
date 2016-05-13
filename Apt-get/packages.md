@@ -35,7 +35,9 @@ apt-get install --only-upgrade monPaquet
 ### Supprimer complètement un package
 ```bash
 apt-get remove <mon_paquet>
-apt-get purge <mon_paquet> -- voir ce que purge fait vraiment
+
+# identique à remove avec suppression des fichiers de configuration
+apt-get purge <mon_paquet>
 ```
 ### Supprimer le cache des paquets périmés
 ```bash
