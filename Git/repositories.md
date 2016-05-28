@@ -29,3 +29,7 @@ par fetch et merge en local (pull)
 ```
 git pull upstream
 ```
+#### Pousser les mises à jour sur le repo distant
+```
+git push upstream
+```
