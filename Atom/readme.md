@@ -6,6 +6,7 @@ Ctrl-T : Open file from left pane
 ## Edition
 - Ctrl-F : Find
 - F3 : Find next
+
 ## Search
 - Ctrl-maj-R : Search in project
 
