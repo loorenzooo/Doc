@@ -10,3 +10,8 @@ do
   cmd [option] "$file" >> results.out
 done
 ```
+
+## Loop on find results
+```bash
+for f in $(find . -maxdepth 2 -mindepth 2 -type d);do echo "mv $f $(dirname $f)/part=$(basename $f)";done
+```
