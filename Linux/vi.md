@@ -15,3 +15,12 @@
 - a : append
 - u : undo
 - Ctrl-n : autocomplete
+
+## Visual Block mod (Vim only)
+### Insertion de texte en mode colonne
+- Ctrl + V pour entrer dans le visual block mode
+- Selectionner les lignes impactées avec les flèches
+- Shift + i pour entrer en mode édition
+- Entrer le texte (il apparaît sur une seule ligne)
+- Esc pour sortir du mode édition
+- L'ajout est dupliqué sur toutes les lignes sélectionnées
