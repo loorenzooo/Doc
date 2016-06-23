@@ -4,6 +4,7 @@
 - ?[pattern] : recherche du pattern en arrière
 - :ascii : affiche le code du caractère sous le curseur
 - :g/pattern/d : supprime toutes les lignes contenant pattern
+- :s/old/new/g : remplace old par new sur toute la ligne courante
 
 ## Raccourcis clavier hors mode édition
 - gg : aller à la fin du fichier
