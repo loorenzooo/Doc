@@ -1,5 +1,17 @@
-[https://docs.gimp.org/2.8/fr/]
+https://docs.gimp.org/2.8/fr/
 
+## Détourage
+- Sélection via outil de selection contigue
+- Menu Calque / Transparence / Ajouter un canal alpha
+- Touche Suppr
+
+## Reduire un calque
+- Barre d'outil mise à l'échelle ou raccourci Ctrl-T
+
+## Raccourcis clavier :
+- M : Outil de déplacement
+- T : Outil texte
+- Ctrl-molette : Zoom
 
 ## Sélection suivant une proportion
 - Outil sélection rectangulaire
