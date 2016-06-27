@@ -15,6 +15,11 @@ Ctrl-T : Open file from left pane
 - Ctrl-Shift-H : Git-plus
 - Ctrl-Shift-M : Markdownn preview
 
+# Edition de fichier
+## Ajouter des caractères en fin de ligne
+- Utiliser la fonction recherche avec mode regexp activé
+- Expression pour la recherche : $
+
 # Installation package
 
 ```bash
