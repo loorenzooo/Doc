@@ -67,3 +67,4 @@ echo "mongodb-org hold" | sudo dpkg --set-selections
 ```bash
 sudo apt-get -f install
 ```
+Si message d'erreur forcer la suppression du package qui pose pb
