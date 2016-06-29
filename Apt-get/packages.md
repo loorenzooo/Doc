@@ -51,6 +51,10 @@ sudo apt-get clean
 ```bash
 sudo apt-get autoremove
 ```
+### Forcer la suppression en cas de problèmes
+```bash
+sudo dpkg --remove --force-all apache2-doc
+```
 ### Afficher la version d’un package
 ```bash
 apt-cache policy mongodb-org
