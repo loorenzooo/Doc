@@ -63,3 +63,7 @@ apt-cache policy mongodb-org
 ```bash
 echo "mongodb-org hold" | sudo dpkg --set-selections
 ```
+### Réparer les dépendances cassées
+```bash
+sudo apt-get -f install
+```
