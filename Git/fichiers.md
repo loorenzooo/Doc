@@ -1,6 +1,6 @@
 ## Gestion des fichiers
 ### Etats des fichiers
-- modified
+- modified / unstaged
 - staged
 - commited
 
