@@ -10,6 +10,12 @@ git add monFichier
 ```
 Le fichier est alors dans la staging area
 
+### Supprimer un fichier de la staging area
+```
+git reset monFichier
+```
+Le fichier n'est pas inclus dans le prochain commit
+
 ### Annuler une modif qui n’est pas stagged
 ```
 git checkout monFichier
