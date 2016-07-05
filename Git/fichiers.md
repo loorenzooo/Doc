@@ -1,8 +1,8 @@
 ## Gestion des fichiers
 ### Etats des fichiers
-- modified / unstaged
-- staged
-- commited
+- modified / unstaged / untracked -> GIT ADD -> staged
+- staged -> GIT COMMIT -> commited
+- commited -> GIT PUSH
 
 ### Ajout de nouveaux fichiers au prochain commit
 ```
