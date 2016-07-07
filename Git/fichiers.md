@@ -4,6 +4,7 @@
 
 #### modified / unstaged / untracked
 - GIT ADD => staged
+- GIT CHECKOUT => not modified
  
 #### staged 
 - GIT COMMIT => commited
