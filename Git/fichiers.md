@@ -3,14 +3,15 @@
 ### Etats des fichiers
 
 #### modified / unstaged / untracked
-- GIT ADD => staged
-- GIT CHECKOUT => not modified
+- git add => staged
+- git checkout => not modified
  
 #### staged 
-- GIT COMMIT => commited
+- git commit => commited
+- git rm --cached
 
 #### commited 
-- GIT PUSH
+- git push
 
 ### Ajout de nouveaux fichiers au prochain commit
 ```
