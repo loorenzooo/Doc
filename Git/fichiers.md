@@ -2,7 +2,7 @@
 
 ### Etats des fichiers
 
-#### modified / unstaged / untracked
+#### modified - unstaged (Changed but not updated in git status) / untracked (Untracked files in git status)
 - git add => staged
 - git checkout => not modified
  
