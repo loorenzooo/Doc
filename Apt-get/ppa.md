@@ -29,8 +29,14 @@ wget http://public-repo-1.hortonworks.com/ambari/ubuntu14/2.x/updates/2.2.0.0/am
 - puis recharger la liste des packages
 
 ## Supprimer un dépôt ppa
+- Sans supprimer les paquets correspondants
 ```bash
 sudo add-apt-repository -r ppa:<nom_du_dépôt>
+
+sudo rm /etc/apt/sources.list.d/<nom_du_fichier_dépôt>
+```
+- En supprimant les paquets correspondants
+```bash
 sudo ppa-purge ppa:<nom_du_dépôt>
 ```
 # Gestion du référentiel des packages
