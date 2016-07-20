@@ -22,7 +22,7 @@ dkpg -s mongodb-org
 
 ### Installer un package
 ```bash
-sudo apt-get install -y mongodb-org
+sudo apt-get install -y mongodb-org[:version]
 ```
 ### Installation d’un .deb
 ```bash
