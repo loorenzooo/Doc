@@ -8,4 +8,12 @@ Person.prototype.greet = function () {
 };
 var albert = new Person('Albert Einstein');
 console.log(albert.greet());
+
+// Object creation with say method
+var santa = {
+ say :function(){
+ console.log("ho ho ho");
+ }
+}
+santa.say();
 ```
