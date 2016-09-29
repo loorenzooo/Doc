@@ -2,7 +2,7 @@
 Code de 0 à 127 ne comprenant pas les caractères accentués
 
 ## Unicode
-Code représentant tous les caractères possibles
+Code représentant tous les caractères possibles via un code point de la forme U+0639
 
 ## UTF-8
 C'est un type de représentation sous forme de bytes (encoding) d'un caractère unicode
