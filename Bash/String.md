@@ -1,3 +1,4 @@
+## Substring
 ```bash
 MA_VARIABLE="Une chaine de caratères"
 echo ${MA_VARIABLE:4:6}
@@ -8,3 +9,8 @@ MA_VARIABLE="Une chaine de caratères"
 echo ${MA_VARIABLE:2}
 ```
 Supprime les 2 premiers caratères
+
+## Remplacement de caractères
+```bash
+${string//pattern/replacement}
+```
