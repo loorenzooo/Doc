@@ -11,6 +11,11 @@ echo ${MA_VARIABLE:2}
 Supprime les 2 premiers caratères
 
 ## Remplacement de caractères
+### Seulement la première occurence
+```bash
+${string/pattern/replacement}
+```
+### Toutes les occurences
 ```bash
 ${string//pattern/replacement}
 ```
