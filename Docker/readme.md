@@ -1,3 +1,6 @@
+### Configuration
+/etc/default/docker
+
 ### Get official images
 ```bash
 sudo docker pull elasticsearch
