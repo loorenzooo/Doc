@@ -6,7 +6,10 @@ mvn archetype:generate -DgroupId=fr.ibp.flume -DartifactId=regex-interceptor -Da
 ```bash
 mvn dependency:sources
 ```
-## Utilisation du plugon tomcat pour le déploiement
+## Version du jdk utilisée
+Le JDK pointé par JAVA_HOME
+
+## Utilisation du plugin tomcat pour le déploiement
 - cf projet CICE pour un exemple de configuration
 - le déploiement se fait via la commande :
 ```bash
