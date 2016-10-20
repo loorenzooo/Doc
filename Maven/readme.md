@@ -8,7 +8,10 @@ mvn dependency:sources
 ```
 ## Version du jdk utilisée
 Le JDK pointé par JAVA_HOME
-
+Pour voir le jdk utilisé
+```java
+mvn enforcer:display-info
+```
 ## Utilisation du plugin tomcat pour le déploiement
 - cf projet CICE pour un exemple de configuration
 - le déploiement se fait via la commande :
