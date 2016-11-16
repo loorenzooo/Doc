@@ -6,3 +6,4 @@ C'est un caractère UTF-8 affiché dans une page ISO-8859-1
 String s1 = "l'Ã©pargne";
 String s2 = new String(s1.getBytes("iso-8859-1"), "utf8");
 ```
+- � is usually a sign for a ISO-8859-1 character in data that is treated as UTF-8
