@@ -28,3 +28,4 @@ Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16
 ### Caractère é
 - En Unicode  : U+00E9
 - En UTF-8 (hexa) : C3 A9
+- En ISO 8859-1 (hexa) : E9
