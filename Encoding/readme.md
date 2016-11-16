@@ -23,3 +23,6 @@ Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16
 ### Signe €
 - En Unicode  : U+20A0
 
+### Caractère é
+- En Unicode  : U+00E9
+- En UTF-8 : %C3 %A9
