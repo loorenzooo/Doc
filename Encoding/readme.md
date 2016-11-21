@@ -1,8 +1,12 @@
-## ASCII
-Code de 0 à 127 ne comprenant pas les caractères accentués
-
 ## Unicode
 Code représentant tous les caractères possibles via un code point de la forme U+0639
+
+## ASCII
+http://www.ascii-code.com/
+### charset de base
+Code de 0 à 127 pour écrire en anglais (pas de caractères accentués)
+Sur un octet (8 ème bit ignoré)
+Dans la norme unicode, ASCII est connu sous le nom "C0 Controls and Basic Latin"
 
 ## Encodings/charsets disponibles
 
@@ -16,8 +20,7 @@ Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16
 
 ### ISO 8859-1 alias LATIN-1
 
-### ASCII
-http://www.ascii-code.com/
+
 
 ## Exemples 
 
