@@ -1,15 +1,6 @@
 ## Unicode
 Code représentant tous les caractères possibles via un code point de la forme U+0639
 
-## ASCII
-http://www.ascii-code.com/
-### charset de base
-Code de 0 à 127 pour écrire en anglais (pas de caractères accentués)
-Sur un octet (8 ème bit ignoré)
-Dans la norme unicode, ASCII est connu sous le nom "C0 Controls and Basic Latin"
-
-## Encodings/charsets disponibles
-
 ### UTF-8
 C'est un type de représentation sous forme de bytes (encoding) d'un caractère unicode
 Le code va de 1 à 4 bytes suivant la plage à laquelle appartient le code unicode : 
@@ -18,9 +9,15 @@ Le code va de 1 à 4 bytes suivant la plage à laquelle appartient le code unico
 
 Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16 is another encoding way of Unicode
 
-### ISO 8859-1 alias LATIN-1
+## ASCII
+http://www.ascii-code.com/
+### charset de base
+Code de 0 à 127 pour écrire en anglais (pas de caractères accentués)
+Sur un octet (8 ème bit ignoré)
+Dans la norme unicode, ASCII est connu sous le nom "C0 Controls and Basic Latin"
 
-
+### ASCII étendu
+#### ISO 8859-1 alias LATIN-1
 
 ## Exemples 
 
