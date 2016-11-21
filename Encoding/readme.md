@@ -16,6 +16,9 @@ Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16
 
 ### ISO 8859-1 alias LATIN-1
 
+### ASCII
+http://www.ascii-code.com/
+
 ## Exemples 
 
 ### Hello
@@ -24,6 +27,7 @@ Unicode is a character set, and UTF-8 is one encoding way of Unicode, and UTF-16
 
 ### Signe €
 - En Unicode  : U+20A0
+- En ASCII (Hex) : 80
 
 ### Caractère é
 - En Unicode  : U+00E9
