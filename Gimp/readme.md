@@ -19,3 +19,8 @@ https://docs.gimp.org/2.8/fr/
 - Cliquer sur la case Fixé
 - La sélection peut être agrandie et repositionnée en gardant la proportion
 - L'option 'Mise en évidence' permet d'obscurcir les parties non sélectionnées
+
+## Rendre transparente une élection monochrome
+- Clic droit dans la sélection
+- Couleur vers alpha
+
