@@ -34,3 +34,5 @@ persons = getPersonsByCondition(
 2 persons,
 3 person -> person.getAge() < 20); 
 ```
+Lambda expressions may be used where a functional interface is expected. We call an interface functional interface if itdefines accurately one abstract method
+Cf https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html for predifined functional interfaces
