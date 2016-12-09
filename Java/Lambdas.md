@@ -15,3 +15,10 @@ Condition<Person>(){
  }
  });
 ```
+
+# Lambda expression
+```java
+persons = getPersonsByCondition(
+2 persons,
+3 person -> person.getAge() < 20); 
+```
