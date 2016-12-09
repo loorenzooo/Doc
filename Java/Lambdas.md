@@ -1,17 +1,15 @@
 # Anonymous class implementing interface Condition
 ## Method using interface as parameter type
 ```java
- private List<Person> getPersonsByCondition(List<Person>
-persons, Condition<Person> condition){
-  List<Person> result = new ArrayList<>();
-  for (Person person : persons) {
+private List<Person> getPersonsByCondition(List<Person> persons, Condition<Person> condition){
+ List<Person> result = new ArrayList<>();
+ for (Person person : persons) {
   if (condition.test(person)) {
-  result.add(person);
+   result.add(person);
   }
-  }
-10 return result;
-11 }
-The condi
+ }
+ return result;
+}
 ```
 ## Interface to implement
 ```java
