@@ -6,7 +6,7 @@
 -consoleLog : affiche les logs dans la console
 ```
 
-## Specify jvm ion eclipse.ini file
+## Specify jvm in eclipse.ini file
 ```ini
 -vm
 C:\Java\jdk1.7.0_80_x86\bin\javaw.exe
