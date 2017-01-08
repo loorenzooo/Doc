@@ -27,3 +27,16 @@ case "SAT" | "SUN" =>
 | }
 kind: String = weekday
 ```
+
+# Pattern guard
+``` scala
+scala> val response: String = null
+response: String = null
+scala> response match {
+|
+case s if s != null => println(s"Received '$s'")
+|
+case s => println("Error! Received a null response")
+| }
+Error! Received a null response
+```
