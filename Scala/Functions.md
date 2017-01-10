@@ -37,3 +37,13 @@ res11: Int = 60
 scala> sum()
 res12: Int = 0
 ```
+
+# Type parameterized function
+```scala
+scala> def identity[A](a: A): A = a
+identity: [A](a: A)A
+scala> val s: String = identity[String]("Hello")
+s: String = Hello
+scala> val d: Double = identity[Double](2.717)
+d: Double = 2.717
+```
