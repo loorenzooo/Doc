@@ -33,7 +33,7 @@ total
 | }
 sum: (items: Int*)Int
 scala> sum(10, 20, 30)
-res11: Int = 60
+res11: Int = 60`
 scala> sum()
 res12: Int = 0
 ```
@@ -47,3 +47,8 @@ s: String = Hello
 scala> val d: Double = identity[Double](2.717)
 d: Double = 2.717
 ```
+
+# Infix operator notation
+```scala
+"starting" substring (1,4) // equivalent to "starting".substring(1,4)
+``` 
