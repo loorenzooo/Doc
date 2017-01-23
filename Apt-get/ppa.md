@@ -28,6 +28,13 @@ wget http://public-repo-1.hortonworks.com/ambari/ubuntu14/2.x/updates/2.2.0.0/am
 
 - puis recharger la liste des packages
 
+Exemple de script
+```bash
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+sudo apt-get update
+sudo apt-get install sbt
+```
 ## Supprimer un dépôt ppa
 - Sans supprimer les paquets correspondants
 ```bash
