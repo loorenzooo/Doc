@@ -11,6 +11,7 @@
 - GG : aller au début du fichier
 - n : occurrence suivante de la recherche
 - N : occurrence précédente de la recherche
+- Shift-j : join two lines
 
 ## Raccourcis clavier en mode édition
 - a : append
