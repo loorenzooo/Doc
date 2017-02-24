@@ -29,3 +29,8 @@ git diff master
 ```
 git checkout master
 ```
+### Merger une branche
+```
+git chechout branche_destination # On se positionne dans la branche destination
+git merge branche_a_integrer
+```
