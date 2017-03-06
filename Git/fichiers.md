@@ -37,3 +37,9 @@ git reset --hard
 ```
 git diff mon_fichier
 ```
+### Remisage
+```
+git stash
+git stash list
+git stash apply
+```
