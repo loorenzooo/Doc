@@ -11,7 +11,7 @@
 - git rm --cached
 
 #### commited 
-- git push
+- git push => pushed
 
 ### Ajout de nouveaux fichiers au prochain commit
 ```
