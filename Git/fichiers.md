@@ -37,6 +37,10 @@ git reset --hard
 ```
 git diff mon_fichier
 ```
+### Voir les noms de fichiers modifiés
+```
+git diff --name-only
+```
 ### Remisage
 ```
 git stash
