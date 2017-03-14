@@ -35,4 +35,8 @@ git checkout master
 ```
 git chechout branche_destination # On se positionne dans la branche destination
 git merge branche_a_integrer
+
+### Se positionner sur une branche distante
+git fetch # Récupère kes branches (et + ?)
+git checkout [ma_branche]
 ```
