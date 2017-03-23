@@ -15,7 +15,7 @@ git checkout -b [name_of_your_new_branch]
 ```
 NB: La nouvelle branche sera basée sur la branche courante et pa sobligatoirement sur le master
 
-#### Pousser la nouvelle branche sur github
+#### Pousser la branche locale sur github
 ```
 git push origin  [name_of_your_new_branch]
 ```
