@@ -5,6 +5,10 @@
 ```
 git branch
 ```
+### Récupération de la branche master locale et positionnement dessus
+```
+git checkout master
+```
 #### Créer une branche locale et s’y positionner
 ```
 git checkout -b [name_of_your_new_branch]
@@ -19,7 +23,8 @@ git push origin  [name_of_your_new_branch]
 ```
 git branch -d [nom de la branche]
 ```
-## Branches distantes
+
+### Branches distantes
 #### Lister les branches distantes
 ```
 git branch -r
@@ -28,23 +33,25 @@ git branch -r
 ```
 git branch -a
 ```
-La branche par défaut est la branche master
-### Comparer la copie de travail avec la branche master
+### Récupérer les branches distantes
+```
+git fetch origin
+```
+Note tahth working directory is not touched at this point
+
+### Comparaison et mise à jour
+#### Comparer la copie de travail avec la branche master
 ```
 git diff master
 ```
-### Récupération de la branche master locale et positionnement dessus
-```
-git checkout master
-```
-### Merger une branche
+#### Merger une branche
 ```
 git chechout branche_destination # On se positionne dans la branche destination
 git merge branche_a_integrer
-
-### Se positionner sur une branche distante
-git fetch # Récupère kes branches (et + ?)
-git checkout [ma_branche]
+```
+### Fetch et merge auto
+```
+git pull origin feat/TBD4624-CDH5.10_upgrade
 ```
 
 https://longair.net/blog/2009/04/16/git-fetch-and-merge/
