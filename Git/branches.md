@@ -40,3 +40,5 @@ git merge branche_a_integrer
 git fetch # Récupère kes branches (et + ?)
 git checkout [ma_branche]
 ```
+
+https://longair.net/blog/2009/04/16/git-fetch-and-merge/
