@@ -3,7 +3,7 @@
 # Fetch the branch you want a worktree on
 git fetch origin maintenance/6.3
 # Create a worktree on it
-git worktree add ../tcommon-studio-se-6.3 origin maintenance/6.3
+git worktree add ../tcommon-studio-se-6.3 maintenance/6.3
 ```
 
 ## Delete worktree
