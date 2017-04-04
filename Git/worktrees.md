@@ -1,5 +1,5 @@
 ## Create worktree on another branch in parallel
-```
+```bash
 # Fetch and checkout the branch you want a worktree on
 git fetch origin maintenance/6.3
 git checkout maintenance/6.3
