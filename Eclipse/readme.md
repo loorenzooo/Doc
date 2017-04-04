@@ -15,4 +15,4 @@ C:\Java\jdk1.7.0_80_x86\bin\javaw.exe
 -Xmx512m
 -XX:MaxPermSize=512m
 ```
-Project metadata are stored in `workspace-luna-sr2/.metadata/.plugins/org.eclipse.core.resources/.projects`
+Project metadata are stored in `[WORKSPACE]/.plugins/org.eclipse.core.resources/.projects`
