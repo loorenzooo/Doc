@@ -12,3 +12,8 @@ find . -mindepth 2 -name '*.mkv'
 ```bash
 find . -name '*.jpg' -exec cp {} ./small \;
 ```
+
+### Recherche d'une classe dans des jars
+```bash
+find . -type f -name "*.jar" -exec sh -c 'unzip -l {} | grep -H --label {} 'Buffer'' \;
+```
