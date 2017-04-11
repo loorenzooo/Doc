@@ -1,6 +1,6 @@
 ```bash
 if [[ $# -ne 2 ]];then
-        echo "Usage switch-credentials.sh [JOB_NAME] [NEW_ID]"
+        echo "$0 [JOB_NAME] [NEW_ID]"
         exit
 fi
 ```
