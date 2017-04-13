@@ -37,7 +37,7 @@ git branch -a
 ```
 git fetch origin
 ```
-Note tahth working directory is not touched at this point
+Note : Le répertoire de travail n'est pas impacté par cette commande
 
 ### Comparaison et mise à jour
 #### Comparer la copie de travail avec la branche master
