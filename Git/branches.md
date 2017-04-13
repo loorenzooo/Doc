@@ -39,6 +39,10 @@ git fetch origin
 ```
 Note : Le répertoire de travail n'est pas impacté par cette commande
 
+### Se positionner sur une branche distante
+```
+git checkout [branch] # sans le origin
+```
 ### Comparaison et mise à jour
 #### Comparer la copie de travail avec la branche master
 ```
