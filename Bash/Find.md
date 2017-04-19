@@ -1,10 +1,10 @@
 ### Liste des répertoires vides
 ```bash
-find test -depth -type d -empty
+find . -depth -type d -empty
 ```
 ### Suppression des répertoires vides
 ```bash
-find test -depth -type d -empty -delete
+find . -depth -type d -empty -delete
 ```
 ### Liste de fichier modifiés une date précise (ex 11/04/2016)
 ```bash
