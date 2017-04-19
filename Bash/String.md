@@ -24,3 +24,9 @@ ${string/pattern/replacement}
 ```bash
 ${string//pattern/replacement}
 ```
+## String tokenize
+Example to get the last part after the last /
+```
+MACHAINE="/home/lbourgeois/jars/jarsChd5101/parquet/lib/httpclient-4.2.5"
+echo ${MACHAINE2##*/}
+```
