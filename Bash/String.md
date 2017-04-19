@@ -10,6 +10,11 @@ echo ${MA_VARIABLE:2}
 ```
 Supprime les 2 premiers caratères
 
+
+Delete last chars
+```
+echo ${MA_VARIABLE::-2}
+```
 ## Remplacement de caractères
 ### Seulement la première occurence
 ```bash
