@@ -1,4 +1,4 @@
-# Replace b char by B char in file list
+# Replace the by The in file list
 ```bash
-while read line; do mv $line ${line//b/B}; done < list
+while read line; do mv $line ${line/the/The}; done < list
 ```
