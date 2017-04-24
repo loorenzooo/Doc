@@ -17,4 +17,8 @@ mvn enforcer:display-info
 - le déploiement se fait via la commande :
 ```bash
 mvn tomcat7:redeploy -DskipTests -Pibcier00
+
+## Argument
+- Désactivation tests : DskipTests
+- Désactivation checkstyle : -Dcheckstyle.skip=true
 ```
