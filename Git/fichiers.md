@@ -51,3 +51,7 @@ git stash
 git stash list
 git stash apply
 ```
+### Revenir à une version précise d'un fichier
+```
+git checkout abcde file/to/restore
+```
