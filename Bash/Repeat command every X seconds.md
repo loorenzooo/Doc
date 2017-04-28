@@ -1,0 +1,1 @@
+watch -n [SECONDS] [COMMAND]
