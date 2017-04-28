@@ -28,3 +28,6 @@
 - Entrer le texte (il apparaît sur une seule ligne)
 - Esc pour sortir du mode édition
 - L'ajout est dupliqué sur toutes les lignes sélectionnées
+
+## Add chars at the beggining of each line
+:%s/^/new_chars/g
