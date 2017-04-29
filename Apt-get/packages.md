@@ -8,6 +8,7 @@ apt-cache search [monPackage]
 ```
 ### Lister les fichiers d’un package
 ```bash
+sudo apt-file update
 apt-file list monPackage
 ```
 ### Lister les packages installés
