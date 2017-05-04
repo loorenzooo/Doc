@@ -48,14 +48,15 @@ git checkout [branch] # sans le origin
 ```
 git diff master
 ```
-#### Merger une branche
+#### Merger une branche (A valider)
 ```
-git chechout branche_destination # On se positionne dans la branche destination
+git checkout branche_destination # On se positionne dans la branche destination
 git merge branche_a_integrer
 ```
-### Fetch et merge auto
+### Merger la branche master dans la branche de feature
 ```
-git pull origin feat/TBD4624-CDH5.10_upgrade
+git checkout [feature_branch]
+git pull origin master
 ```
 
 https://longair.net/blog/2009/04/16/git-fetch-and-merge/
