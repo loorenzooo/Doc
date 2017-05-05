@@ -25,3 +25,8 @@ find . -name '*.jpg' -exec cp {} ./small \;
 ```bash
 find . -type f -name "*.jar" -exec sh -c 'unzip -l {} | grep -H --label {} 'Buffer'' \;
 ```
+
+### Fichiers les p)lus récents dans une arbo
+```
+find $DIR -type f -printf "%T@ %p\n" | sort -n -r
+```
