@@ -27,7 +27,14 @@ mvn tomcat7:redeploy -DskipTests -Pibcier00
 wget --output-document=aws-java-sdk-cloudwatch-1.10.20.jar http://search.maven.org/remotecontent?filepath=com/amazonaws/aws-java-sdk-cloudwatch/1.10.20/aws-java-sdk-cloudwatch-1.10.20.jar
 ```
 ## Installer manuellement un jar dans le repo local
+
+https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
+
+- Si le jar contient un pom
 ```
-mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> \
-    -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>
+mvn install:install-file -Dfile=<path-to-file>
+```
+- Sinon
+```
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DpomFile=<pathToPom>
 ```
