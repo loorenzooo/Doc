@@ -69,3 +69,8 @@ echo "mongodb-org hold" | sudo dpkg --set-selections
 sudo apt-get -f install
 ```
 Si message d'erreur forcer la suppression du package qui pose pb
+
+### Extract rpm content
+```bash
+rpm2cpio package.rpm | cpio -idmv
+```
