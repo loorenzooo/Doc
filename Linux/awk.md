@@ -8,3 +8,7 @@ awk '{ x=0; x+=gsub("\\|",""); print x }' monFichier.txt
 ```bash
 awk '{ new=$0 ; gsub("/Equinoxe","/canal=Equinoxe",new) ; print "echo",NR,$0 ; print "hadoop fs -mv",$0,new }' ate_equinoxe | ks
 ```
+### Limiter l'affichage aux 2 premières colonnes
+```bash
+ps aux | awk '{print $1,$2}'
+```
