@@ -7,7 +7,7 @@ fi
 ```
 
 ### One line test
-if id hbase2; then echo 1; else echo 0; fi
+if ! id hbase; then echo "A creer"; else echo "Existe deja"; fi
 
 ### Tests numériques
 - $variable -eq 10 : égal
