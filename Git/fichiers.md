@@ -35,7 +35,7 @@ git checkout monFichier
 ```
 ### Revenir à la dernière version commitée
 ```
-git reset --hard
+git reset --hard origin/master
 ```
 ### Voir les modifications non commitées d'un fichier
 ```
