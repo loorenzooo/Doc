@@ -16,3 +16,8 @@ C:\Java\jdk1.7.0_80_x86\bin\javaw.exe
 -XX:MaxPermSize=512m
 ```
 Project metadata are stored in `[WORKSPACE]/.plugins/org.eclipse.core.resources/.projects`
+
+## Shortcuts
+### Edition
+- Ctrl-D : Delete current line
+- Shift-Enter : Add new line below
