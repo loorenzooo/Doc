@@ -1,12 +1,16 @@
 ## Create worktree on another branch in parallel
 ```bash
-# Fetch and checkout the branch you want a worktree on
-git fetch origin maintenance/6.3
-git checkout maintenance/6.3
-# Go back on master
+BRANCH_VERSION=6.4
+BRANCH=maintenance/$BRANCH_VERSION
+
+BASE_REPO=tcommon-studio-se
+
+cd $BASE_REPO
+git fetch origin $BRANCH
+git checkout $BRANCH
 git checkout master
-# Create a worktree on it
-git worktree add ../tcommon-studio-se-6.3 maintenance/6.3
+git worktree add ../${BASE_REPO}-${BRANCH_VERSION} $BRANCH
+cd ..
 ```
 
 ## Delete worktree
