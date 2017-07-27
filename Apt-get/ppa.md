@@ -7,6 +7,7 @@ ls -l /etc/apt/sources.list.d/
 ### Automatiquement avec add-apt
 ```bash
 sudo add-apt-repository ppa:<nom_du_dépôt>
+sudo apt-get update
 ```
 ### Manuellement
 - importer la clé publique mongodb
