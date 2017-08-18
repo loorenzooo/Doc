@@ -1,25 +1,25 @@
-#Ajout dépendances MAVEN :
-
+# Ajout dépendances MAVEN :
+```
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
 			<version>1.10.8</version>
 			<scope>test</scope>
 		</dependency>
-
+```
 - State Testing : Test E/S directs : worker classes
 - Interaction Testing : Test E/S indirects (Collaborateurs) : manager classes
 
 Avant chaque execution de méthode de test une instance de la classse de test est créée
 @Before et @After
 
-#Assertions
+# Assertions
 assertEquals
 assertTrue(myFerrari instanceof Car);
 @Test(expected = ExceptionClass.class)
 
-
-#Passage de paramètres
+# Passage de paramètres
+```
 @RunWith(JUnitParamsRunner.class)
 public class MoneyParameterizedTest {
 
@@ -38,23 +38,27 @@ assertEquals(amount, money.getAmount());
 assertEquals(currency, money.getCurrency());
 }
 }
+```
 
-#Types of test doubles
--Dummy (Coquille vide : Car myFerrari = Mockito.mock(Car.class);)
-
--Stub (Ajout d'un comportement : 
+# Types of test doubles
+- Dummy (Coquille vide : Car myFerrari = Mockito.mock(Car.class);)
+- Stub (Ajout d'un comportement : 
+```
 				when(myFerrari.needsFuel()).thenReturn(true);
 				when(myFerrari.needsFuel()).thenThrow(new RuntimeException());
 				doThrow(new IllegalArgumentException("bad argument!")).when(someObject).voidMethod();
-
--Spy/Mock (Vérification des appels) :
+```
+- Spy/Mock (Vérification des appels) :
+```
 				verify(myFerrari).driveTo("Sweet home Alabama");
 				verify(myFerrari).needsFuel();
 				verify(clientA, never()).receive(message); // To verify that somathing has not occured
 				verify(clientA, times(3)).receive(message); // To verify number of calls
 				
-#Catch-Exception library to avoid try catch in test code
+```				
+# Catch-Exception library to avoid try catch in test code
 
+```
 import static com.googlecode.catchexception.CatchException.*;
 ...
 Phone phone = new Phone();
@@ -74,8 +78,10 @@ public void shouldThrowExceptions() throws InvalidRequestException {
 	caughtException() instanceof InvalidRequestException);
 	Mockito.verifyZeroInteractions(requestProcessor);
 }
+```
 
-#Matchers for generic stubbing
+# Matchers for generic stubbing
+```
 verify(userDAO, times(3)).getUser(anyInt());
 
 Unitils21, Hamcrest22 and FEST Fluent Assertions23 usage for collections testing.
@@ -97,3 +103,4 @@ mapper = CsvWithHeaderMapper.class)
 public void shouldCalculateDiscount(double value, double discount) {
 assertEquals(discount,DiscountCalculator.calculateDiscount(value), 0.0001);
 }}
+```
