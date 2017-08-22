@@ -30,7 +30,7 @@ public enum PeriodEnum {
 }
 ```
 
-### Enum en fonction d'un String representant sa valeur (renvoyée par toString (ou name() ?)) : WEEK ou MONTH
+### Enum en fonction d'un String representant sa valeur (renvoyée par toString() ou name()) : WEEK ou MONTH
 ```java
 PeriodEnum period = PeriodEnum.valueOf(periodSel);
 ```
