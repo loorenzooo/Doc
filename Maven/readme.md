@@ -44,3 +44,8 @@ mvn install:install-file -Dfile=<path-to-file>
 ```
 mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DpomFile=<pathToPom>
 ```
+
+### Copy dependencies to local filesystem
+```
+mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
+```
