@@ -26,6 +26,12 @@ mvn tomcat7:redeploy -DskipTests -Pibcier00
 ```
 wget --output-document=aws-java-sdk-cloudwatch-1.10.20.jar http://search.maven.org/remotecontent?filepath=com/amazonaws/aws-java-sdk-cloudwatch/1.10.20/aws-java-sdk-cloudwatch-1.10.20.jar
 ```
+
+## Download and install jar
+```
+mvn dependency:get -Dartifact=org.apache.avro:avro-tools:1.8.1
+```
+
 ## Installer manuellement un jar dans le repo local
 
 https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
