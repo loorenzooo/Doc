@@ -7,5 +7,5 @@ done <"$1"
 
 En une ligne on remplace les retours chariot par des ;
 ```bash
-while read line; do ./create-view-inf.sh $line; done < liste-tables-inf
+while read line; do echo $line; done < liste-tables-inf
 ```
