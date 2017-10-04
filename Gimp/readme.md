@@ -24,3 +24,6 @@ https://docs.gimp.org/2.8/fr/
 - Clic droit dans la sélection
 - Couleur vers alpha
 
+## Mesure et guide
+- Ctrl + mesure : contraint le tracé
+- Ctrl + Alt + Clic sur end point mesure : création d'un guide
