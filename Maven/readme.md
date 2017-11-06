@@ -49,3 +49,8 @@ mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId
 ```
 mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
 ```
+
+### Run a single test class
+```
+mvn -Dtest=TestCircle test
+```
