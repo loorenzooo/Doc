@@ -52,5 +52,5 @@ mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
 
 ### Run a single test class
 ```
-mvn -Dtest=TestCircle test
+mvn -Dtest=TestCircle#mytest test
 ```
