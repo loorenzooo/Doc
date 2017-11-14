@@ -33,11 +33,19 @@ sudo dpkg --install [mon_package]
 ```bash
 apt-get install --only-upgrade monPaquet
 ```
+### Mise à jour de tous les packages
+```bash
+apt-get update
+apt-get dist-upgrade
+```
+
+
 ### Supprimer complètement un package
 ```bash
+# Sans suppression des fichiers de configuration
 apt-get remove <mon_paquet>
 
-# identique à remove avec suppression des fichiers de configuration
+# Avec suppression des fichiers de configuration
 apt-get purge <mon_paquet>
 ```
 ### Supprimer le cache des paquets périmés
