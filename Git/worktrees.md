@@ -2,9 +2,7 @@
 ```bash
 BRANCH_VERSION=6.4
 BRANCH=maintenance/$BRANCH_VERSION
-
 BASE_REPO=tcommon-studio-se
-
 cd $BASE_REPO
 git fetch origin $BRANCH
 git checkout $BRANCH
