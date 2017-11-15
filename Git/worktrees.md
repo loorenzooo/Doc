@@ -15,3 +15,4 @@ cd ..
 
 ## Delete worktree
 Just delete the corresponding folder
+git worktree prune
