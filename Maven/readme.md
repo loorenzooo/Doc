@@ -54,3 +54,8 @@ mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
 ```
 mvn -Dtest=TestCircle#mytest test
 ```
+
+### Remove .lastUpdated files
+```
+find ~/.m2/ -name '*lastUpdated' -exec rm {} \;
+```
