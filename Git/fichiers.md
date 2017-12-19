@@ -55,3 +55,7 @@ git stash apply
 ```
 git checkout abcde file/to/restore
 ```
+### Delete a file from repo
+```
+git rm --cached [FILE]
+```
