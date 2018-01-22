@@ -1,6 +1,6 @@
-## Gestion des fichiers
+## Managing files
 
-### Etats des fichiers
+### Files state
 
 #### new - untracked
 - git add => staged
@@ -58,4 +58,8 @@ git checkout abcde file/to/restore
 ### Delete a file from repo
 ```
 git rm --cached [FILE]
+```
+### Cancel last commmit
+```
+git reset --hard HEAD^
 ```
