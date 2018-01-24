@@ -5,3 +5,4 @@
 
 ### Options
 * --color
+* -o : display only matched string
