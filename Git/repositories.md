@@ -33,3 +33,7 @@ git pull upstream
 ```
 git push upstream
 ```
+### Search commist on master with given message (JIRA id for example)
+```
+git log --grep=6331 --first-parent master
+```
