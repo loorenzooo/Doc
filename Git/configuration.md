@@ -14,7 +14,9 @@ git config --global credential.helper cache
 # Set timeout after one hour
 git config --global credential.helper 'cache --timeout=3600'
 ```
-### Add alias
+### Aliases
+Stored in ~/.gitconfig
+#### Add alias
 ```
 git config --global alias.co checkout
 ```
