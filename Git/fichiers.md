@@ -63,3 +63,8 @@ git rm --cached [FILE]
 ```
 git reset --hard HEAD^
 ```
+
+### Revert last 2 commits
+```
+git revert --no-commit HEAD~2..
+```
