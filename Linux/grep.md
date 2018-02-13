@@ -3,6 +3,11 @@
  grep --include="*config.xml" -R -c 'credentials' ./
 ```
 
+### With regex
+```bash
+grep -R 'jackson-[^1-9]*' *
+```
+
 ### Options
 * --color
 * -o : display only matched string
