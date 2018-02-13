@@ -5,7 +5,7 @@
 
 ### With regex
 ```bash
-grep -R 'jackson-[^1-9]*' *
+grep -R 'jackson-[^1-9]*\(-[0-9]\.[0-9]\.[0-9]\)\?]*[^\.]*' *
 ```
 
 ### Options
