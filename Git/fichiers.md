@@ -68,3 +68,8 @@ git reset --hard HEAD^
 ```
 git revert --no-commit HEAD~2..
 ```
+
+### Diff on single file from remote branch
+```
+git diff origin/lbourgeois/TBD-6494_Add_Kudu_dkr_image -- Dockerfile
+```
