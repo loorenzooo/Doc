@@ -9,12 +9,12 @@
 #### modified - unstaged (Changed but not updated in git status) / untracked (Untracked files in git status)
 - git add => staged
 - git checkout => not modified
- 
-#### staged 
+
+#### staged
 - git commit => commited
 - git rm --cached
 
-#### commited 
+#### commited
 - git push => pushed
 
 ### Ajout de nouveaux fichiers au prochain commit
@@ -72,4 +72,9 @@ git revert --no-commit HEAD~2..
 ### Diff on single file from remote branch
 ```
 git diff origin/lbourgeois/TBD-6494_Add_Kudu_dkr_image -- Dockerfile
+```
+
+### Diff from master for a single file
+```
+git diff master ./main/plugins/org.talend.hadoop.distribution.cdh5100/plugin.xml
 ```

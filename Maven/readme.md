@@ -1,18 +1,18 @@
-## Initialisation du projet en ligne de commande
+## Project init command line
 ```bash
 mvn archetype:generate -DgroupId=fr.ibp.flume -DartifactId=regex-interceptor -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
-## Téléchargement des sources
+## Sources download
 ```bash
 mvn dependency:sources
 ```
-## Version du jdk utilisée
+## Checked used JDK version
 Le JDK pointé par JAVA_HOME
 Pour voir le jdk utilisé
 ```java
 mvn enforcer:display-info
 ```
-## Utilisation du plugin tomcat pour le déploiement
+## Tomcat plugin for deployment
 - cf projet CICE pour un exemple de configuration
 - le déploiement se fait via la commande :
 ```bash
@@ -43,6 +43,11 @@ mvn install:install-file -Dfile=<path-to-file>
 - Sinon
 ```
 mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DpomFile=<pathToPom>
+```
+
+# Maven dependencies check
+```
+mvn -f "$HOME/.m2/repository/$POM_PATH" dependency:tree
 ```
 
 ### Copy dependencies to local filesystem
