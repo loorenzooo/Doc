@@ -45,12 +45,14 @@ mvn install:install-file -Dfile=<path-to-file>
 mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging> -DpomFile=<pathToPom>
 ```
 
-# Maven dependencies check
+# Dependencies
+
+## Get dependencies tree
 ```
-mvn -f "$HOME/.m2/repository/$POM_PATH" dependency:tree
+mvn -f "$POM_PATH" dependency:tree
 ```
 
-### Copy dependencies to local filesystem
+## Copy dependencies to local filesystem
 ```
 mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
 ```
@@ -63,4 +65,9 @@ mvn -Dtest=TestCircle#mytest test
 ### Remove .lastUpdated files
 ```
 find ~/.m2/ -name '*lastUpdated' -exec rm {} \;
+```
+
+### Install only parent pom
+```
+mvn install -N
 ```
