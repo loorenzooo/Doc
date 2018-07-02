@@ -8,6 +8,13 @@
 grep -R 'jackson-[^1-9]*\(-[0-9]\.[0-9]\.[0-9]\)\?]*[^\.]*' *
 ```
 
+### With regex and multiple conditions
+```bash
+find . -mindepth 1 -maxdepth 1 -type d | grep -e 'talend-cloudera-5130-from-540-hadoop-spark' -e 'tuj1'
+```
+
 ### Options
 * --color
 * -o : display only matched string
+* -v : logical not
+  -l : only filenames
