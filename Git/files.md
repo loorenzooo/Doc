@@ -78,3 +78,5 @@ git diff origin/lbourgeois/TBD-6494_Add_Kudu_dkr_image -- Dockerfile
 ```
 git diff master ./main/plugins/org.talend.hadoop.distribution.cdh5100/plugin.xml
 ```
+
+git revert -m [MAINLINE] <= what you want to keep
