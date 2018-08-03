@@ -24,3 +24,7 @@ for (ElementType element : elementsList) {
 Convert list to array :
 -----------------------
 String [] stockArr = (String[]) stock_list.toArray(new String[0]);
+
+List myList = Arrays.asList();
+myList.add(....);
+myList.toArray(new String[0]);
