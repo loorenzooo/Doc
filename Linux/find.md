@@ -1,32 +1,28 @@
-### Liste des répertoires vides
+### List empty directories
 ```bash
 find . -depth -type d -empty
 ```
-### Suppression des répertoires vides
+### Delete empty directories
 ```bash
 find . -depth -type d -empty -delete
 ```
-### Liste de fichier modifiés une date précise (ex 11/04/2016)
+### List files modified at a precise date
 ```bash
 find . -newermt 2016-04-11 ! -newermt 2016-04-12
 ```
-
-### Démarrer seulement à partir des sous-répertoires
+### Start only from subdirs
 ```bash
 find . -mindepth 2 -name '*.mkv'
 ```
-
-### Chainage avec une commande
+### Chain with a command
 ```bash
 find . -name '*.jpg' -exec cp {} ./small \;
 ```
-
-### Recherche d'une classe dans des jars
+### Find a class in jars
 ```bash
 find . -type f -name "*.jar" -exec sh -c 'unzip -l {} | grep -H --label {} 'Buffer'' \;
 ```
-
-### Fichiers les plus récents dans une arbo
+### Most recent files in tree
 ```bash
 find $DIR -type f -printf "%T@ %p\n" | sort -n -r
 ```
