@@ -30,14 +30,17 @@
 - Esc pour sortir du mode édition
 - L'ajout est dupliqué sur toutes les lignes sélectionnées
 
+# String substitution
 ## Add chars at the beggining of each line
 :%s/^/new_chars/g
 
 ## Delete white space
 :%s/\s//g
+:%s/^\s//g
+
+## Add new lines
+:%s/,/,\r/g
 
 # Completion
 - Ctrl-x Ctrl-n : forward
 - Ctrl-x Ctrl-p : backward
-
-:%s/^\s//g

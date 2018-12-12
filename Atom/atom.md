@@ -1,4 +1,4 @@
-# Raccourcis clavier
+# Keyboard shortcuts
 ## General
 Ctrl-Shift-P : General command line
 ## Files
