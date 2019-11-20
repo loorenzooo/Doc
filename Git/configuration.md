@@ -20,3 +20,8 @@ Stored in ~/.gitconfig
 ```
 git config --global alias.co checkout
 ```
+
+### Diff tool
+git config --global diff.tool p4merge
+git config --global difftool.p4merge.path <path>
+git config --global difftool.prompt false
