@@ -33,6 +33,8 @@
 # String substitution
 ## Add chars at the beggining of each line
 :%s/^/new_chars/g
+## Add chars at the end of each line
+:%s/$/||||$/g
 
 ## Delete white space
 :%s/\s//g
@@ -44,3 +46,7 @@
 # Completion
 - Ctrl-x Ctrl-n : forward
 - Ctrl-x Ctrl-p : backward
+
+# Display special characters
+:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+:set list

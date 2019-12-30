@@ -15,6 +15,8 @@ apt-file list monPackage
 ```bash
 apt --installed list
 ```
+dpkg -l "*gtk*" | grep ii
+
 ### Savoir si un paquet précis est installé
 ```bash
 dkpg -s mongodb-org

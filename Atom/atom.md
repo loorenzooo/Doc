@@ -6,7 +6,9 @@ Ctrl-T : Open file from left pane
 ## Edition
 - Ctrl-F : Find
 - F3 : Find next
-- Ctr-Shift-K : Delete current line
+- Ctrl-Shift-K : Delete current line
+- Ctrl-l : Select current line
+-Ctrl-up/down : Move line
 
 ## Search
 - Ctrl-maj-R : Search in project
