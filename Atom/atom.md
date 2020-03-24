@@ -8,7 +8,8 @@ Ctrl-T : Open file from left pane
 - F3 : Find next
 - Ctrl-Shift-K : Delete current line
 - Ctrl-l : Select current line
--Ctrl-up/down : Move line
+- Ctrl-up/down : Move line
+- Ctrl-enter : Insert line after
 
 ## Search
 - Ctrl-maj-R : Search in project
