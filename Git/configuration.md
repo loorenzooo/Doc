@@ -14,6 +14,11 @@ git config --global credential.helper cache
 # Set timeout after one hour
 git config --global credential.helper 'cache --timeout=3600'
 ```
+### Signing commits
+Autosigning commits
+git config --global commit.gpgsign true
+https://help.github.com/en/github/authenticating-to-github/signing-commits
+
 ### Aliases
 Stored in ~/.gitconfig
 #### Add alias

@@ -1,9 +1,17 @@
+# Duplicate directory
+
+```bash
+cp -R src-dir/ copy-dir/
+```
+
 # Backup a directory
+
 ```bash
 cp -avr /home/vivek/letters /usb/backup
 ```
 
 # Duplicate a directory into another
+
 ```bash
 lbourgeois@tlnd-lbourgeois ~/Git/tuj-bigdata/tuj_generator/target (kcoepeau/cdh513) $ mkdir -p test1/test11
 lbourgeois@tlnd-lbourgeois ~/Git/tuj-bigdata/tuj_generator/target (kcoepeau/cdh513) $ touch test1/test11/f1

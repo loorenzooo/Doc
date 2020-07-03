@@ -26,3 +26,5 @@ find . -type f -name "*.jar" -exec sh -c 'unzip -l {} | grep -H --label {} 'Buff
 ```bash
 find $DIR -type f -printf "%T@ %p\n" | sort -n -r
 ```
+### Or operator between conditions
+-o   

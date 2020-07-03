@@ -12,3 +12,5 @@ git diff -- myFile
 
 # Between arbitrary commits
 git diff <commit> HEAD
+
+git diff origin/master -- [local-path]

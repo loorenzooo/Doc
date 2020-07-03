@@ -33,7 +33,7 @@ mvn dependency:copy-dependencies -DoutputDirectory=/tmp/xxx
 wget --output-document=aws-java-sdk-cloudwatch-1.10.20.jar http://search.maven.org/remotecontent?filepath=com/amazonaws/aws-java-sdk-cloudwatch/1.10.20/aws-java-sdk-cloudwatch-1.10.20.jar
 ```
 ## Dependencies sources download
-```bash
+```
 mvn dependency:sources
 ```
 
