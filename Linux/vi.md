@@ -1,5 +1,7 @@
 # Vi cookbook
+
 ## Commands
+
 - /[pattern] : recherche du pattern vers l'avant
 - ?[pattern] : recherche du pattern en arrière
 - :ascii : affiche le code du caractère sous le curseur
@@ -10,6 +12,7 @@
 - :listchars : nonfigure les charactères affichés par la commande list
 
 ## Shortcuts in non edition mode
+
 - gg : aller à la fin du fichier
 - GG : aller au début du fichier
 - n : occurrence suivante de la recherche
@@ -17,12 +20,15 @@
 - Shift-j : join two lines
 
 ## Shortcuts in edition mode
+
 - a : append
 - u : undo
 - Ctrl-n : autocomplete
 
 ## Visual Block mod (Vim only)
+
 ### Insert text in column mode
+
 - Ctrl + V pour entrer dans le visual block mode
 - Selectionner les lignes impactées avec les flèches
 - Shift + i pour entrer en mode édition
@@ -31,22 +37,31 @@
 - L'ajout est dupliqué sur toutes les lignes sélectionnées
 
 # String substitution
+
 ## Add chars at the beggining of each line
+
 :%s/^/new_chars/g
+
 ## Add chars at the end of each line
+
 :%s/$/||||$/g
 
 ## Delete white space
+
 :%s/\s//g
 :%s/^\s//g
 
 ## Add new lines
+
 :%s/,/,\r/g
+:%s/,/,^M/g (Ctrl-V Ctrl-M)
 
 # Completion
+
 - Ctrl-x Ctrl-n : forward
 - Ctrl-x Ctrl-p : backward
 
 # Display special characters
-:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
+:set listchars=eol:\$,tab:>-,trail:~,extends:>,precedes:<
 :set list
