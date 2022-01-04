@@ -1,18 +1,31 @@
 ## List tags
+
 ```
 git tag -l
 ```
+
 ## Fetch tags
+
 ```
  git fetch --tags origin master
- ```
- git fetch --all --tags --prune
+```
+
+git fetch --all --tags --prune
+
+## Checkout tag
+
+```bash
+git co tags/<tag_name>
+```
 
 ## Clone a specific tag (to be completed)
+
 ```
 git clone -b json-path-1.2.0 git@github.com:json-path/JsonPath.git json-path-1.2.0
 ```
+
 ## Create a branch from a tag
+
 ```
 git checkout -b <Hotfix branch> <TAG>
 

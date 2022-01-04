@@ -60,3 +60,39 @@ return ((List<Map<String, Object>>) param.getValue()).stream()
 
 ((List<Map<String, Object>>) param.getValue()).stream()
 .forEach(l -> System.out.println("COMP:"+l.toString()));
+
+## Remove element based on a predicate
+
+myList.removeIf(item -> "TO_BE_REMOVED".equals(item));
+
+## Get stream from iterable
+
+```java
+StreamSupport.stream(iterable.spliterator(), false)
+```
+
+## Extract attribute
+
+```java
+List<String> namesList = personList.stream()
+                                   .map(Person::getName)
+                                   .collect(Collectors.toList());
+
+.collect(Collectors.toCollection(ArrayList::new));
+
+String[] sparkModeLabels = Arrays.asList(ESparkMode.values()).stream().map(ESparkMode::getLabel)
+                        .collect(Collectors.toList()).toArray(new String[0]);
+```
+
+
+
+DictionaryRegistry.getInstance().keySet().stream()
+                            .peek(registryDictVersion -> log.info("Found dictionary version '{}' in the registry. Using custom dictionary.", registryDictVersion)) //
+                            .findFirst()
+                            .orElseGet(() -> {
+                                log.info("No dictionary found in the classpath. Using the default built in dictionary.");
+                                /**
+                                 *  0L stands for the version of the built-in dictionary
+                                 */
+                                return 0L;
+                            });

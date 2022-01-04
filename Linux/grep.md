@@ -34,6 +34,7 @@ find . -mindepth 1 -maxdepth 1 -type d | grep -e 'talend-cloudera-5130-from-540-
 - -v : logical not
 - -l : only filenames
 - -n : display line numbers
+- -I : ignore binary files
 
 ### Or Expression
 

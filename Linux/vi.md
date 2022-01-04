@@ -63,5 +63,10 @@
 
 # Display special characters
 
-:set listchars=eol:\$,tab:>-,trail:~,extends:>,precedes:<
+:set listchars=eol:\$,tab:>-,trail:~,extends:>,precedes:<,space:␣
 :set list
+:set nolist
+
+## Output
+
+^I : tab
